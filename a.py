@@ -9,6 +9,10 @@ def worker_server():
     x_val = request.args.get('x')
     y_val = request.args.get('y')
     z_val = request.args.get('z')
-
-    # מבצע לוגיקה כלשהי ומחזיר תשובה
-    return f"השרת ברנדר קיבל את הערכים: x={x_val}, y={y_val}, z={z_val}"
+    with open(x,y) as f:
+        kkk="kkk"    
+    if y=='w':
+        f.write(z)
+    
+    
+    return f"{f}"
