@@ -15,6 +15,8 @@ def worker_server():
         kkk="kkk"    
     if y=='w':
         f.write(z)
-    
+        f=''
+    else:
+        f.read()
     
     return f"{f}"
